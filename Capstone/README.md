@@ -28,9 +28,9 @@ Data on top fashion influencers downloaded from Starngage, an influencer marketi
 | :- |---|---|---|
 |**handle**|*string*|final_acct_df|instagram account name| 
 |**name**|*string*|final_acct_df|name of influencer|
-|**topics**|*string*|topics that influencer posts about|
-|**follower_count**|*integer*|number of followers, as at end Nov 2021|
-|**to_exclude_pets_food**|*integer*|1 if topics include pets/food, 0 if not|
+|**topics**|*string*|final_acct_df|topics that influencer posts about|
+|**follower_count**|*integer*|final_acct_df|number of followers, as at end Nov 2021|
+|**to_exclude_pets_food**|*integer*|final_acct_df|1 if topics include pets/food, 0 if not|
 
 Pictures extracted from instagram are saved in ([*this folder*](https://git.generalassemb.ly/limsmin/capstone/tree/master/Capstone/pictures)), with each subfolder corresponding to an Instagram handle (34 handles in total, from Jan-Nov 2021)
 
