@@ -34,14 +34,14 @@ Data on top fashion influencers downloaded from Starngage, an influencer marketi
 
 Pictures extracted from instagram are saved in ([*this folder*](https://git.generalassemb.ly/limsmin/capstone/tree/master/Capstone/pictures)), with each subfolder corresponding to an Instagram handle (34 handles in total, from Jan-Nov 2021)
 
-RGBA data extracted from Instagram photos are stored in ([*this folder*](https://git.generalassemb.ly/limsmin/capstone/tree/master/Capstone/data/rgba)). Each column represents a photo (with image path as the column name), and each row is a pixel's R, G, B and A value in that order
+RGBA data extracted from Instagram photos are stored in ([*this folder*](https://github.com/limsmin/capstone_v3/tree/master/Capstone/data/rgba)). Each column represents a photo (with image path as the column name), and each row is a pixel's R, G, B and A value in that order
 
-Each photo's k-means cluster centroids are saved in ([*this folder*](https://git.generalassemb.ly/limsmin/capstone/blob/master/Capstone/data/cluster_by_photo.csv))
+Each photo's k-means cluster centroids are saved in ([*this folder*](https://github.com/limsmin/capstone_v3/blob/master/Capstone/data/cluster_by_photo.csv))
 
 |Feature|Type|Dataset|Description|
 | :- |---|---|---|
 |**image_list**|*string*|cluster_by_photo|file path for the image| 
-|**rgba_list**|*string*|cluster_by_photo|was originally an array of all the rgba values, but cannot be properly stored in this manner. If you need to read the entire rgba_list again, please open the RGBA data stored in ([*this folder*](https://git.generalassemb.ly/limsmin/capstone/tree/master/Capstone/data/rgba))
+|**rgba_list**|*string*|cluster_by_photo|was originally an array of all the rgba values, but cannot be properly stored in this manner. If you need to read the entire rgba_list again, please open the RGBA data stored in ([*this folder*](https://github.com/limsmin/capstone_v3/tree/master/Capstone/data/rgba))
 |**instagram_handle**|*string*|cluster_by_photo|instagram account name|
 |**seq_post_samedate**|*integer*|cluster_by_photo|sequence of posted image on the same date|
 |**rgba_centers_2**|*string*|cluster_by_photo|RGBA values of the 2 centroids in k-means clustering, where k = 2. To be converted to array when read|
